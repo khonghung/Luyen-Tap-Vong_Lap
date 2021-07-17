@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai Tap</title>
+</head>
+<body>
+
+    <button type="button" onclick="batdau()">Start</button>
+    <button type="reset">Reset</button>
+
+<script>
+    /*bài 1
+    for (i = 1; i < 100; i ++){
+        document.write( i+1 + " ")
+    }
+    alert("đã hoàn thành")*/
+
+
+
+    /*bài 2
+
+    let nhietdo= parseInt(prompt("nhiệt độ người dùng"))
+           if ( nhietdo > 100){
+               alert("xin hãy giản=m nhiệt độ ")
+           }
+           else if ( nhietdo < 20){
+               alert(" hãy tăng nhiệt độ ")
+           }else {
+               alert("nhiệt độ bình thường")
+           } */
+
+
+
+    /*bài 3
+
+       let a =1
+       let b =0
+       let c;
+       for (let i=0; i<20;i++ ){
+           c=a
+           a=a+b
+           b=c
+           document.write(b + " ")
+       }
+       */
+
+
+
+    /*bài 4
+
+    let a =1
+    let b =0
+    let c;
+    for (let i=0; i<20;i++ ){
+        c=a
+        a=a+b
+        b=c
+        if (b%5==0){
+           chia5 = b
+          break;
+       }
+    }
+    alert("số chia hết cho 5 là" + chia5)
+    */
+
+
+
+    /*bài 5
+
+     let tong = 0
+     let a = 1
+     let b = 0
+     let c;
+     for (let i = 0; i < 20; i++) {
+         c = a
+         a = a + b
+         b = c
+         tong += b
+     }
+     document.write("tong  " + tong)
+ */
+
+
+
+    /*Bài 6
+
+    let result = 0
+    for ( i =1 ; i <=30 ; i++) {
+        let a = (i * 7)
+        result += a
+    }  alert(result)
+*/
+
+
+
+    /*  Bài 7
+
+        for (i = 1; i < 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                document.write("FizzBuzz" + "....." )
+            } else if (i % 5 == 0) {
+                let Buzz = i
+                document.write("Buzz" + ".....")
+            } else if (i % 3 == 0) {
+                let Fizz = i
+                document.write("Fizz" + ".....")
+            } else {
+                document.write(i + ".....")
+            }
+        }
+      */
+
+    //Bài 8
+
+       /*  function batdau() {
+             let phamvi = parseInt(prompt("số bạn muốn đoán trong phạm vi từ 0- ? "))
+             let somuondoan = parseInt(prompt("số bạn muốn đoán "))
+             let random = Math.floor(Math.random() * phamvi)
+             if (somuondoan == random) {
+                 alert("Chúc mừng bạn đã đoán đúng")
+             } else {
+                 while (somuondoan !== random ) {
+                     alert("Sai mất rồi, số đúng là "+ random)
+                     somuondoan = parseInt(prompt("số bạn muốn đoán "))
+                 } alert("Chúc mừng bạn đã đoán đúng")
+             }
+         }   */
+</script>
+</body>
+
+
+</html>
